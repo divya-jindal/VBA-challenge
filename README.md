@@ -43,7 +43,8 @@ The script will run on each sheet of the workbook, analyzing the data and displa
 Make sure to save your Excel workbook before running the script to avoid any data loss.
 For any issues or suggestions, feel free to create an issue or submit a pull request.
 
-Further, please make sure data is in columns A-G in this order: 
+Further, please make sure data is in columns A-G in this order:
+
 ![image](https://github.com/divya-jindal/VBA-challenge/assets/10901784/665a8466-7fad-4965-bbbc-8246e4c215a0)
 
 ###### Credits: This project was created by Divya Jindal in UC Berkeley's Data Analytics Bootcamp taught by Instructor Kevin Lee
