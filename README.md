@@ -1,5 +1,3 @@
-# VBA-challenge
-
 ## Stock Market Data Analysis using VBA Scripting
 The script I've created performs the following tasks:
 #### Loops through all stocks for a given year and outputs the following for each respective ticker category:
@@ -12,7 +10,11 @@ The script I've created performs the following tasks:
 + Stock with the greatest total volume
 ***This is a second tier of analysis using the analysis of each ticker category. Stock refers to each ticker category as a whole***
 
-### How it works
+### Additional features:
+- Implements conditional formatting to highlight positive change in green and negative change in red
+- Script is applied across all sheets within the workbook
+
+## How it works
 The StockAnalysis subroutine is designed to analyze stock market data contained within multiple sheets in an Excel workbook using VBA scripting. Here's how it works:
 1. This subroutine begins by declaring various variables, including integers for row numbers (outputRowNum, inputRowNum), a worksheet object (ws), string variables for ticker symbols (ticker, tickerPart), double variables for stock prices and volumes (openVal, closeVal, percentChange, totalStockVolume), and arrays to store the best-performing tickers and their corresponding values (allstarTickers, allstarValues).
 2. It then iterates through each worksheet in the workbook. Within the loop, it initializes variables and arrays, and sets header labels for the output data.
@@ -20,10 +22,6 @@ The StockAnalysis subroutine is designed to analyze stock market data contained 
 4. Finally, it prints the results for each worksheet, including the top-performing tickers, and adds percentage symbols to the percentage values.
 
 ***Overall, this subroutine effectively analyzes stock market data in each worksheet, identifies top-performing stocks, and presents the results in the workbook.***
-
-### Additional features:
-- Implements conditional formatting to highlight positive change in green and negative change in red
-- Script is applied across all sheets within the workbook
 
 ## How to Use
 1. Download or clone this repository to your local machine.
