@@ -18,7 +18,8 @@ The StockAnalysis subroutine is designed to analyze stock market data contained 
 2. It then iterates through each worksheet in the workbook. Within the loop, it initializes variables and arrays, and sets header labels for the output data.
 3. During each iteration through the rows of the worksheet, it calculates the total stock volume for each ticker, determines the closing price, and prints the results including the yearly change, percentage change, and total stock volume. It also identifies the tickers with the greatest percentage increase, decrease, and total stock volume across all sheets.
 4. Finally, it prints the results for each worksheet, including the top-performing tickers, and adds percentage symbols to the percentage values.
-Overall, this subroutine effectively analyzes stock market data in each worksheet, identifies top-performing stocks, and presents the results in the workbook.
+
+***Overall, this subroutine effectively analyzes stock market data in each worksheet, identifies top-performing stocks, and presents the results in the workbook.***
 
 ### Additional features:
 - Implements conditional formatting to highlight positive change in green and negative change in red
