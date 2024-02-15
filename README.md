@@ -12,11 +12,11 @@ The script I've created performs the following tasks:
 + Stock with the greatest percentage increase
 + Stock with the greatest percentage decrease
 + Stock with the greatest total volume
-*** This is a second tier of analysis using the analysis of each ticker category. Stock refers to each ticker category as a whole ***
+***This is a second tier of analysis using the analysis of each ticker category. Stock refers to each ticker category as a whole***
 
 ##### Additional features:
-- Implements conditional formatting to highlight positive change in green and negative change in red
-- Script is applied across all sheets within the workbook
+##### - Implements conditional formatting to highlight positive change in green and negative change in red
+##### - Script is applied across all sheets within the workbook
 
 
 ## How to Use
@@ -27,7 +27,7 @@ The script I've created performs the following tasks:
 5. Select StockAnalysis() from the list and click Run.
 The script will run on each sheet of the workbook, analyzing the data and displaying the results accordingly.
 
-##### Files Included
+#### Files Included
 * StockAnalysis().bas: The VBA script responsible for analyzing the stock market data.
 * README.md: You're reading it right now! Provides information about the project.
 
@@ -36,4 +36,4 @@ Make sure to save your Excel workbook before running the script to avoid any dat
 For any issues or suggestions, feel free to create an issue or submit a pull request.
 
 ###### Credits
-This project was created by Divya Jindal
+###### This project was created by Divya Jindal
