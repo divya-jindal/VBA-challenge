@@ -39,4 +39,4 @@ The script will run on each sheet of the workbook, analyzing the data and displa
 Make sure to save your Excel workbook before running the script to avoid any data loss.
 For any issues or suggestions, feel free to create an issue or submit a pull request.
 
-###### Credits: This project was created by Divya Jindal
+###### Credits: This project was created by Divya Jindal in UC Berkeley's Data Analytics Bootcamp taught by Instructor Kevin Lee
