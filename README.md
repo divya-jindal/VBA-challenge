@@ -38,6 +38,7 @@ The script will run on each sheet of the workbook, analyzing the data and displa
 #### Files Included
 * StockAnalysis().bas: The VBA script responsible for analyzing the stock market data.
 * README.md: You're reading it right now! Provides information about the project.
+* Images of 2018 - 2020 Multiple Stock Year Data Results of Sample Data provided in UCB Data Analytics Bootcamp
 
 #### Notes
 Make sure to save your Excel workbook before running the script to avoid any data loss.
