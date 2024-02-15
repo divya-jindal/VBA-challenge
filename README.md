@@ -10,7 +10,7 @@ The script I've created performs the following tasks:
 + Stock with the greatest total volume
 ***This is a second tier of analysis using the analysis of each ticker category. Stock refers to each ticker category as a whole***
 
-### Additional features:
+#### Additional features:
 - Implements conditional formatting to highlight positive change in green and negative change in red
 - Script is applied across all sheets within the workbook
 
