@@ -14,7 +14,7 @@ The script I've created performs the following tasks:
 - Implements conditional formatting to highlight positive change in green and negative change in red
 - Script is applied across all sheets within the workbook
 
-## How it works
+## How the code works
 The StockAnalysis subroutine is designed to analyze stock market data contained within multiple sheets in an Excel workbook using VBA scripting. Here's how it works:
 1. This subroutine begins by declaring various variables, including integers for row numbers (outputRowNum, inputRowNum), a worksheet object (ws), string variables for ticker symbols (ticker, tickerPart), double variables for stock prices and volumes (openVal, closeVal, percentChange, totalStockVolume), and arrays to store the best-performing tickers and their corresponding values (allstarTickers, allstarValues).
 2. It then iterates through each worksheet in the workbook. Within the loop, it initializes variables and arrays, and sets header labels for the output data.
@@ -31,6 +31,10 @@ The StockAnalysis subroutine is designed to analyze stock market data contained 
 5. Select StockAnalysis() from the list and click Run.
 The script will run on each sheet of the workbook, analyzing the data and displaying the results accordingly.
 
+#### Results will look like this: 
+![Screenshot 2024-02-15 at 2 43 38 PM](https://github.com/divya-jindal/VBA-challenge/assets/10901784/1c914ef7-1806-43e9-a529-72ab3cc2991c)
+
+## Additional information
 #### Files Included
 * StockAnalysis().bas: The VBA script responsible for analyzing the stock market data.
 * README.md: You're reading it right now! Provides information about the project.
@@ -38,5 +42,8 @@ The script will run on each sheet of the workbook, analyzing the data and displa
 #### Notes
 Make sure to save your Excel workbook before running the script to avoid any data loss.
 For any issues or suggestions, feel free to create an issue or submit a pull request.
+
+Further, please make sure data is in columns A-G in this order: 
+![image](https://github.com/divya-jindal/VBA-challenge/assets/10901784/665a8466-7fad-4965-bbbc-8246e4c215a0)
 
 ###### Credits: This project was created by Divya Jindal in UC Berkeley's Data Analytics Bootcamp taught by Instructor Kevin Lee
